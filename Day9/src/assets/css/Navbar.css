@@ -1,0 +1,67 @@
+/* Add this CSS to make the navbar responsive and visually appealing */
+
+/* Navbar styling */
+nav {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-right: 20px; /* Reduce the margin for smaller screens */
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.actions{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column; /* Stack links vertically on smaller screens */
+    align-items: center; /* Center-align links */
+    gap: 0.5rem;
+    margin-right: 0;
+  }
+
+  .nav-links li {
+    margin: 0;
+  }
+
+  .nav-links a {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
