@@ -1,0 +1,12 @@
+.sidebar-toggle {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+  }
+  
