@@ -1,0 +1,15 @@
+.sidebar {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .sidebar.open {
+    left: 0; 
+  }
+  
