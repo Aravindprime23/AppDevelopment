@@ -1,0 +1,52 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-section-title {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .dashboard-product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-product-card {
+    width: 20%;
+    margin: 0 1.5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.2s;
+    text-align: center;
+  }
+  
+  .dashboard-product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .dashboard-product-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .dashboard-product-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .dashboard-product-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Add specific styling for other sections, links, buttons, etc. as needed */
+  
