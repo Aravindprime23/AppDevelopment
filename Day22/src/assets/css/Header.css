@@ -1,0 +1,18 @@
+header {
+  background-color: #43fe1d;
+  color: #0e0e0e;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  margin-top: 65px;
+  width:90vw;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
